@@ -68,7 +68,7 @@ a:visited{
     text-align: center;
 }
 .search-button{display: flex;} 
-.search-button input[type="search"]{
+input[type="search"]{
     border: 0;
     outline: 0;
     flex-grow: 6;
@@ -77,7 +77,7 @@ a:visited{
     border-radius: 0.5rem;
     color: #000;
 }
-.search-button input[type="search"]::placeholder{
+input[type="search"]::placeholder{
     color: #000;
     font-weight: 500;
 }
@@ -85,6 +85,7 @@ a:visited{
     border: 0;
     outline: 0;
     border-radius: 0.5rem;
+    cursor: pointer;
     padding: 1rem 2rem;
     background-color: #FFC107;
     color: #000;
@@ -151,12 +152,42 @@ a:visited{
     color: #f3d373;
     background: none;
 }
+/*Footer section starts here*/
+.footer{
+    padding: 2rem 5rem;
+    display: flex;
+     
+}
+.footer>div{
+    margin-right: 10rem;
+}
+.footer>div h5{
+    font-size: 2rem;
+}
+.footer>div a{
+    display: block;
+    padding: 0;
+}
+.footer>div p{
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.footer>div a:hover{
+    color: #FFC107;
+    background-color: #fff;
+}
+#searchButton{
+    border: 1px solid gray;
+}
 /*Responsive area for Medium device*/
 @media only screen and (max-width: 768px) {
     html {
       font-size: 55%;
     }
-   
+    .footer{
+        flex-direction: column;
+         
+    }
     
 
 }
