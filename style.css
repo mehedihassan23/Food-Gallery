@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+a{
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.5s;
+}
+a:hover{
+   background-color: rgb(169, 173, 173);
+}
+a.button{
+    background-color: rgb(169, 173, 173);
+}
+a:visited{
+    color: rgb(153, 51, 56);
+}
+/*Header sectin starts here*/
+
+.header .navBar{
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+.logo{
+    font-size: 2rem;
+}
+.logo span{
+    color: crimson;
+}
+
+/*Responsive area for Medium device*/
+@media only screen and (max-width: 768px) {
+    html {
+      font-size: 55%;
+    }
+}
+/*Responsive area for Small device*/
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 50%;
+    }
+  }
