@@ -90,6 +90,11 @@ input[type="search"]::placeholder{
     background-color: #FFC107;
     color: #000;
 }
+.search-button input[type="button"]:hover{
+    
+    background-color: #f8c93c;
+    
+}
 /*favourite-food section starts here*/
 .favourite-food{
     padding: 5rem;
